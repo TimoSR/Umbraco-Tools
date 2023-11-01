@@ -83,14 +83,14 @@ namespace WorldDiabetesFoundation.Web;
             
             services.AddSingleton<IProjectSettings, ProjectSettings>(sp =>
             {
-                var _securityToken = "PD@OA-9xd+4-NPTo.NOr=Oxz6VMBm-hI";
+                var _securityToken = ;
                 
                 ProjectSettings projectSettings = new ()
                 {
                     SecurityToken = _securityToken,
-                    ApiUrl = $"https://prod-143.westeurope.logic.azure.com/workflows/0299124fc4a9433ca0c2037beb115baa/triggers/manual/paths/invoke/GetCMSData/{_securityToken}?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=-uSgygZ_g2lEl9KKtae0qQk8YjoUak0YJJq1K6kbzhA",
-                    SecretKey = "Dz8A0gHQP",
-                    RequestBody = new RequestBody("test", "test", "test", "test")
+                    ApiUrl = 
+                    SecretKey = 
+                    RequestBody = 
                 };
                 
                 return projectSettings;
